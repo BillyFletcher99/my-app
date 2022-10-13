@@ -1,9 +1,12 @@
 import Logo from '../assets/logo.png';
 import React, { useState } from 'react';
+import { HiOutlineMail } from 'react-icons/hi';
 
 import {
   FaBars,
   FaLinkedin,
+  FaGithub,
+
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -56,7 +59,18 @@ function App() {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-500'>
             Linkedin <FaLinkedin size={30}/>
+            </a>
+          </li>
 
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <a href='/' className='flex justify-between items-center w-full text-gray-500'>
+            GitHub <FaGithub  size={30}/>
+            </a>
+          </li>
+
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <a href='/' className='flex justify-between items-center w-full text-gray-500'>
+            Email <HiOutlineMail size={30}/>
             </a>
           </li>
         </ul>
