@@ -21,5 +21,10 @@
 #GH-Pages
 #Nodemon
 
+##TO DO:
+-Finish aesthetic values of the site
+-Add more projects to work selection
+-Test contact section more
+
 
 LINK TO DEPLOYED PAGE: https://BillyFletcher99.github.io/my-app
