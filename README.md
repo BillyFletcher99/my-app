@@ -14,3 +14,6 @@ In the project directory, you can run:
 
 #tailwind
 #npm React
+
+
+LINK TO DEPLOYED PAGE: https://BillyFletcher99.github.io/my-app
