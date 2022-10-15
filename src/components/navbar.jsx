@@ -5,7 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
 } from 'react-icons/fa';
-import Logo from '../assets/logo.png';
+import Monogram from '../assets/Monogram.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-neutral-900 text-gray-300'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
+        <img src={Monogram} alt='Logo Image' style={{ width: '200px' }} />
       </div>
 
       {/* navbar */}

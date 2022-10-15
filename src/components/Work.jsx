@@ -4,10 +4,11 @@ import Weather from '../assets/Weather.png';
 import Portfolio from '../assets/Portfolio.png';
 import Password from '../assets/Password.png';
 
+
 const Work = () => {
   return (
     <div class="portfolio-2 py-6 md:py-12 bg-neutral-900 text-[#D6CDB9]">
-   <div class="container px-4 mx-auto">
+   <div class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
       <div class="md:flex md:justify-center">
          <div class="md:w-10/12 xl:w-8/12 text-center">
             <h1 class="text-4xl tracking-widest font-bold inline border-b-4 border-[#b4c2db]">Work</h1>
@@ -30,12 +31,13 @@ const Work = () => {
          <div class="sm:px-6 sm:w-1/2 lg:w-1/3 mt-8">
             <div class="portfolio-item mx-auto max-w-sm">
                <div class="portfolio-img relative overflow-hidden cursor-pointer">
-               <img src={Weather} alt="" className='max-w-full h-auto' />
+               <img src={Weather} alt="weather-app" className='max-w-full h-auto' />
                   <div class="portfolio-hover"></div>
                </div>
                <div class="px-1 py-4">
-                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">Young Bloods</h5>
-                  <p class="text-gray-600">FWR blocks bring in a fresh air of art and design in their blocks.</p>
+                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">Weather App API</h5>
+                  <p class="text-gray-600">This was a simple API project, in which this app will give you
+                  the weather for the area you are in.</p>
                </div>
             </div>
          </div>
@@ -46,8 +48,8 @@ const Work = () => {
                   <div class="portfolio-hover"></div>
                </div>
                <div class="px-1 py-4">
-                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">Nike90 Store</h5>
-                  <p class="text-gray-600">FWR blocks are reusable code blocks for designers, developers and agencies.</p>
+                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">Password Generator</h5>
+                  <p class="text-gray-600">This App will generator a random password for you.</p>
                </div>
             </div>
          </div>
@@ -58,8 +60,8 @@ const Work = () => {
                   <div class="portfolio-hover"></div>
                </div>
                <div class="px-1 py-4">
-                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">Women Inventor</h5>
-                  <p class="text-gray-600">You can use FWR blocks for personal or commercial purpose with attribution.</p>
+                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">My first portfolio</h5>
+                  <p class="text-gray-600">This was my first attempt at a portfoilio long ago... there has been improvements.</p>
                </div>
             </div>
          </div>
@@ -70,8 +72,8 @@ const Work = () => {
                   <div class="portfolio-hover"></div>
                </div>
                <div class="px-1 py-4">
-                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">Pomodoro App</h5>
-                  <p class="text-gray-600">FWR blocks is the must have tool for designers and developers.</p>
+                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">More to come!</h5>
+                  <p class="text-gray-600"></p>
                </div>
             </div>
          </div>
@@ -82,8 +84,8 @@ const Work = () => {
                   <div class="portfolio-hover"></div>
                </div>
                <div class="px-1 py-4">
-                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">Glax landing</h5>
-                  <p class="text-gray-600">FWR blocks are made with Bootstrap and minimal custom styling.</p>
+                  <h5 class="font-semibold text-xl text-[#D6CDB9] uppercase">More to come!</h5>
+                  <p class="text-gray-600"></p>
                </div>
             </div>
          </div>
